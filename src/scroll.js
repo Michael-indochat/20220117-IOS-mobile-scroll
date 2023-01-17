@@ -38,10 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to lock the body
   const lockBody = () => {
     console.log("lock");
-    if (scrollTop) {
-      console.log("scrollTop", scrollTop);
-      wrap.style.top = `-${scrollTop}px`;
-    }
 
     // Change the height and overflow style of all elements in the docEl array
     docEl.forEach((el) => {
@@ -56,7 +52,5 @@ document.addEventListener("DOMContentLoaded", () => {
     docEl.forEach((el) => {
       el.style.overflow = "";
     });
-
-    wrap.style.top = "";
   };
 });
