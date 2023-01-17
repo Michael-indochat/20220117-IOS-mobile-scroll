@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-  @apply text-blue-500 transition-all hover:text-blue-400 hover:underline;
-}
-
 body {
   background: #f9f9f9;
   font-family: sans-serif;
