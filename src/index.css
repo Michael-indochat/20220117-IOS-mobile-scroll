@@ -17,15 +17,6 @@ body {
   padding: 40px;
 }
 
-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: none;
-  border: none;
-  padding: 0;
-}
-
 #dialog {
   background: rgba(200, 200, 200, 0.7);
   bottom: 0;
@@ -42,14 +33,4 @@ button {
 
 body.dialog-open #dialog {
   display: block;
-}
-
-.close {
-  background: none;
-  color: black;
-  opacity: 1;
-  padding: 0;
-  position: absolute;
-  right: 40px;
-  top: 40px;
 }
